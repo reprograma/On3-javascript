@@ -6,10 +6,11 @@
 
 ***
 
-  * [Switch case](#switch-case)
-  * [Funções](#funções)
-  * [Arrays](#arrays)
   * [Chamando o JS dentro do HTML](#chamando-o-js-dentro-do-html)
+  * [Arrays](#arrays)
+  * [Funções](#funções)
+  * [Operador ternário](#operador-ternário)
+  * [Switch case](#switch-case)
   * [Manipulação do DOM](#manipulação-do-dom)
     - [DOM](#dom)
     - [getElementById()](#getelementbyid)
@@ -29,14 +30,123 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
   </head>
   <body>
     <h1>Título</h1>
     <p>Parágrafo</p>
+    <script src="js/script.js"></script>
   </body>
 </html>
 ```
+
+#### Arrays
+
+Array é um tipo de variável que engloba uma lista variáveis. Normalmente é utilizada para agrupar variáveis que tem relação entre si.
+
+Ao invés de declarar três variáveis diferentes, você pode declarar um array de variáveis:
+
+```js
+let sanduicheQueijo = "Queijo";
+let sanduicheRosbife = "Rosbife";
+let sanduicheVegetariano = "Vegetariano";
+```
+
+```js
+let sanduiches = ["Queijo", "Rosbife", "Vegetariano"];
+```
+
+Você pode acessar cada uma através da sua posição no array:
+
+```js
+sanduiches[0]; // retorna a primeira posição do array "Queijo"
+```
+
+```js
+sanduiches.length; // retorna 3, a quantidade de variáveis dentro do array
+```
+
+```js
+sanduiches.forEach(function(item, index) {
+  console.log(item, index);
+  // Queijo 0
+  // Rosbife 1
+  // Vegetariano 2
+});
+```
+
+```
+Importante:
+Em javascript as posições sempre começam em 0.
+```
+
+#### Funções
+
+A função é útil para agrupar um pedaço de código, que pode ser reutilizado em outras partes do seu código.
+
+A função é declarada com a sintaxe abaixo, e o código dentro dela só é executado quando a função é chamada.
+
+```js
+function nomeDaFuncao (parametros) {
+  // código que vai ser executado quando a função for chamada
+}
+
+nomeDaFuncao(parametros); // chamada da função
+```
+
+```js
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit - 32);
+}
+document.getElementById("result").innerHTML = toCelsius(77); // retorna 25
+```
+
+#### Operador ternário
+
+O operador ternário funciona como um if/else, só que tem uma sintaxe mais enxuta
+
+```js
+(condição) ? resultado verdadeiro : resultado falso
+
+let idade = 26;
+let bebida = (idade >= 21) ? "Cerveja" : "Suco";
+console.log(bebida); // Cerveja
+```
+
+
+#### Switch case
+
+O `switch case` funciona com o mesmo princípio do `if/else`, porém com uma sintaxe diferente.
+Ele é útil quando você tem que fazer várias comparações. O seu código vai ficar mais fácil de ler com ele.
+
+```js
+switch(expressão) {
+  case x:
+    // se a condição for verdadeira, o código aqui dentro será executado
+    break;
+  case y:
+    // se a condição anterior não for verdadeira, o código aqui dentro será executado
+    break;
+  default:
+    // se a condição anterior não for verdadeira, o código aqui dentro será executado
+}
+```
+
+```js
+let fruta = 'Banana';
+
+switch(fruta) {
+  case 'Pera':
+    alert('Não é a fruta que queremos');
+    break;
+  case 'Banana':
+    alert('É a fruta que queremos!');
+    break;
+  default:
+    alert('Não encontramos o que queriamos');
+}
+```
+
+- Exercicios:
 
 ***
 
@@ -44,9 +154,11 @@
 
 #### DOM
 
-DOM = Document Object Model
+`DOM = Document Object Model`
 
 O DOM é uma interface que representa como os documentos HTML e XML são lidos pelo seu browser. Após o browser ler seu documento HTML, ele cria um objeto que faz uma representação estruturada do seu documento e define meios de como essa estrutura pode ser acessada. Nós podemos acessar e manipular o DOM com JavaScript.
+
+É um mapa do estrutura do HTML que você está rodando no navegador.
 
 ![dom](images/dom.png)
 
@@ -163,101 +275,4 @@ getSelectId.addEventListener('change', function() {
 let displayText = document.querySelector('#displayText');
 displayText.innerHTML = "Texto que eu inseri no HTML."
 
-```
-
-
-#### Switch case
-
-O `switch case` funciona com o mesmo princípio do `if/else`, porém com uma sintaxe diferente.
-Ele é útil quando você tem que fazer várias comparações. O seu código vai ficar mais fácil de ler com ele.
-
-```js
-switch(expressão) {
-  case x:
-    // se a condição for verdadeira, o código aqui dentro será executado
-    break;
-  case y:
-    // se a condição anterior não for verdadeira, o código aqui dentro será executado
-    break;
-  default:
-    // se a condição anterior não for verdadeira, o código aqui dentro será executado
-}
-```
-
-```js
-let fruta = 'Banana';
-
-switch(fruta) {
-  case 'Pera':
-    alert('Não é a fruta que queremos');
-    break;
-  case 'Banana':
-    alert('É a fruta que queremos!');
-    break;
-  default:
-    alert('Não encontramos o que queriamos');
-}
-```
-
-#### Funções
-
-A função é útil para agrupar um pedaço de código, que pode ser reutilizado em outras partes do seu código.
-
-A função é declarada com a sintaxe abaixo, e o código dentro dela só é executado quando a função é chamada.
-
-```js
-function nomeDaFuncao (parametros) {
-  // código que vai ser executado quando a função for chamada
-}
-
-nomeDaFuncao(parametros); // chamada da função
-```
-
-```js
-function toCelsius(fahrenheit) {
-  return (5/9) * (fahrenheit - 32);
-}
-document.getElementById("result").innerHTML = toCelsius(77); // retorna 25
-```
-
-
-
-#### Arrays
-
-Array é um tipo de variável que engloba uma lista variáveis. Normalmente é utilizada para agrupar variáveis que tem relação entre si.
-
-Ao invés de declarar três variáveis diferentes, você pode declarar um array de variáveis:
-
-```js
-let sanduicheQueijo = "Queijo";
-let sanduicheRosbife = "Rosbife";
-let sanduicheVegetariano = "Vegetariano";
-```
-
-```js
-let sanduiches = ["Queijo", "Rosbife", "Vegetariano"];
-```
-
-Você pode acessar cada uma através da sua posição no array:
-
-```js
-sanduiches[0]; // retorna a primeira posição do array "Queijo"
-```
-
-```js
-sanduiches.length; // retorna 3, a quantidade de variáveis dentro do array
-```
-
-```js
-sanduiches.forEach(function(item, index) {
-  console.log(item, index);
-  // Queijo 0
-  // Rosbife 1
-  // Vegetariano 2
-});
-```
-
-```
-Importante:
-Em javascript as posições sempre começam em 0.
 ```
