@@ -62,13 +62,19 @@ mostraPrecoAptoTresDorm();
 - Crie um HTML com a seguintes opções, dentro de um dropdown (select):
   - Título: Horário das atividades
   - Dança
-    - Segundas e quartas, 19h
   - Ioga
-    - Todos os dias, 8h
   - Natação
-    - Terças e quintas, 20h
   - Boxe
-    - Sextas, 21h
+
+  - Quando o usuário trocar de opção(change), mostre as seguintes frases no HTML:
+    - Dança
+      - Segundas e quartas, 19h
+    - Ioga
+      - Todos os dias, 8h
+    - Natação
+      - Terças e quintas, 20h
+    - Boxe
+      - Sextas, 21h
 
 ***
 
