@@ -235,7 +235,7 @@ O `click` captura a ação de clique em um elemento.
 
 ```html
 <div>
-  <button id="button" />
+  <button id="button">Salvar</button>
 </div>
 ```
 

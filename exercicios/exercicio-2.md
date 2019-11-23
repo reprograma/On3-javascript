@@ -23,4 +23,8 @@
 
 ***
 
+Crie um HTML com um botão Salvar pedindo para o usuário digitar o seu nome. Ao clicar no botão verifique se ele preencheu o nome dele (se ele escreveu algum valor no campo). Se tiver escrito, mostre a seguinte mensagem no HTML: '[Nomedousuario], dados salvos com sucesso.'. Se ele não tiver escrito nada, mostre a seguinte mensagem no HTML: 'Por favor digite seu nome.'
+
+***
+
 - Refatore o exercício do cálculo da média do aluno. Ao invés de prompt() para coletar a nota, vocês vão utilizar um formulário, e ao invés de um alerta na tela vocês vão mostrar as mensagens no HTML (pode ser feito sem a parte bônus, somente mostrando se o aluno foi aprovado ou reprovado).
