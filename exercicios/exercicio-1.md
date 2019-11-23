@@ -59,6 +59,41 @@ alert(animais[2]);
 
 - Peça para o usuário digitar dois valores. Como vamos usar o prompt() precisamos converter esses valores para números (com o parseInt()). Depois da conversão, faça a soma dos dois números e mostre um alerta com o  resultado.
 
+
+```js
+function somaValores() {
+  let valorUm = parseInt(prompt('Digite um número'));
+  let valorDois = parseInt(prompt('Digite outro número'));
+  //console.log(valorUm, valorDois);
+
+  isNaN(4) // false
+  isNaN('t') // true
+
+  if (isNaN(valorUm, valorDois) === true) {
+    alert('Por favor digite um número');
+  } else {
+    let soma = (valorUm + valorDois);
+    alert(soma);
+  }
+
+}
+
+somaValores();
+```
+
+```js
+function somaValores(){
+
+let valorUm = parseInt(prompt("Digite um valor"));
+let valorDois = parseInt(prompt("Digite outro valor"));
+
+(isNaN(valorUm, valorDois) === true) ? alert("Os valores não são números") : alert(valorUm + valorDois);
+
+}
+
+somaValores();
+```
+
 - Receba um número, verifique se ele é positivo, negativo ou zero e mostre o resultado na tela. Se o valor não for numérico OU o usuário não digitar nenhum valor, mostre um alerta na tela solicitando que o usuário digite um número.
 
 - Peça para o usuário digitar 3 números e mostre na tela qual deles é o maior. Primeiro verifique se os valores são números. Senão forem, mostre um alerta avisando que não são números.
