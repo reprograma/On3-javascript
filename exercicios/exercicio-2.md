@@ -78,7 +78,7 @@ mostraPrecoAptoTresDorm();
 
 ***
 
-Crie um HTML com um botão Salvar pedindo para o usuário digitar o seu nome. Ao clicar no botão verifique se ele preencheu o nome dele (se ele escreveu algum valor no campo). Se tiver escrito, mostre a seguinte mensagem no HTML: '[Nomedousuario], dados salvos com sucesso.'. Se ele não tiver escrito nada, mostre a seguinte mensagem no HTML: 'Por favor digite seu nome.'
+- Crie um HTML com um botão Salvar pedindo para o usuário digitar o seu nome. Ao clicar no botão verifique se ele preencheu o nome dele (se ele escreveu algum valor no campo). Se tiver escrito, mostre a seguinte mensagem no HTML: '[Nomedousuario], dados salvos com sucesso.'. Se ele não tiver escrito nada, mostre a seguinte mensagem no HTML: 'Por favor digite seu nome.'. Se você quiser, estilize a mensagem de erro ou sucesso com CSS.
 
 ***
 
