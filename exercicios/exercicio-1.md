@@ -39,7 +39,7 @@
 
 - Crie um array com 5 espécies de animais e mostre um alerta (ou no console) na tela o animal que está na posição 3
 
-- Faça a soma de duas variáveis na tela. Primeiro verifique se os dois valores são números. Se forem números, faça a soma. Senão mostre um alerta avisando que os valores não são números.
+- Peça para o usuário digitar dois valores. Como vamos usar o prompt() precisamos converter esses valores para números (com o parseInt()). Depois da conversão, faça a soma dos dois números e mostre um alerta com o  resultado.
 
 - Receba um número, verifique se ele é positivo, negativo ou zero e mostre o resultado na tela. Se o valor não for numérico OU o usuário não digitar nenhum valor, mostre um alerta na tela solicitando que o usuário digite um número.
 
