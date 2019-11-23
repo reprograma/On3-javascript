@@ -146,7 +146,7 @@ switch(fruta) {
 }
 ```
 
-- Exercicios:
+* [Exercicios](https://github.com/reprograma/On3-javascript/blob/master/exercicios/exercicio-1.md)
 
 ***
 
@@ -218,6 +218,8 @@ Ela vai fazer com que o browser leia nosso arquivo .js mas espero o DOM terminar
 
 ##### click
 
+O `click` captura a ação de clique em um elemento.
+
 ```html
 <div>
   <button id="button" />
@@ -234,6 +236,8 @@ getButtonId.addEventListener('click', function() {
 
 ##### mouseover
 
+O `mouseover` dispara um evento quando passamos o mouse em cima do elemento.
+
 ```html
 <div>
   <button id="button" />
@@ -249,6 +253,8 @@ getButtonId.addEventListener('mouseover', function() {
 ```
 
 ##### change
+
+O `change` normalmente é utilizado para elementos HTML do tipo dropdown (tag select). Ele é disparado quando modificamos uma opção selecionada em um select. A cada `change` é possível pegar o valor (`value`) de cada opção selecionada.
 
 ```html
 <select id="select">
@@ -273,6 +279,21 @@ getSelectId.addEventListener('change', function() {
 
 ```js
 let displayText = document.querySelector('#displayText');
-displayText.innerHTML = "Texto que eu inseri no HTML."
+displayText.innerHTML = "<p>Texto que eu inseri no HTML</p>."
 
 ```
+
+#### innerText
+
+```html
+  <div id="displayText"></div>
+```
+
+```js
+let displayText = document.querySelector('#displayText');
+displayText.innerText = "Texto que eu inseri no HTML."
+
+```
+
+
+* [Exercicios](https://github.com/reprograma/On3-javascript/blob/master/exercicios/exercicio-2.md)
