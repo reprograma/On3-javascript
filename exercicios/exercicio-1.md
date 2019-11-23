@@ -5,7 +5,39 @@
   - Se elas forem iguais, mostre um alerta na tela avisando que elas são iguais
   - Se não forem, mostre um alerta na tela avisando que são frutas diferentes
 
-- Crie um array com 5 espécies de animais e mostre na tela o animal que está na posição 3
+
+  ```js
+    let primeiraFruta = prompt('Digite um nome de fruta');
+    let segundaFruta = prompt('Digite outra nome de fruta');
+
+    (primeiraFruta === segundaFruta) ? alert(`${primeiraFruta} é igual a ${segundaFruta}`) : alert(`${primeiraFruta} é diferente de ${segundaFruta}`)
+  ```
+
+  ```js
+    // Código com uma função
+    function frutas() {
+      let primeiraFruta = prompt('Digite um nome de fruta');
+      let segundaFruta = prompt('Digite outra nome de fruta');
+
+      (primeiraFruta === segundaFruta) ? alert(`${primeiraFruta} é igual a ${segundaFruta}`) : alert(`${primeiraFruta} é diferente de ${segundaFruta}`)
+    }
+
+    frutas(); // O código acima só é executado se eu chamar essa função
+  ```
+
+  ```js
+    // Código com uma função com parâmetros
+    function frutas(primeiraFruta, segundaFruta) {
+      (primeiraFruta === segundaFruta) ? alert(`${primeiraFruta} é igual a ${segundaFruta}`) : alert(`${primeiraFruta} é diferente de ${segundaFruta}`)
+    }
+
+    // O código abaixo só é executado se eu chamar essa função
+    frutas(primeiraFruta = prompt('Digite um nome de fruta'), segundaFruta = prompt('Digite outra nome de fruta'));
+  ```
+
+***
+
+- Crie um array com 5 espécies de animais e mostre um alerta (ou no console) na tela o animal que está na posição 3
 
 - Faça a soma de duas variáveis na tela. Primeiro verifique se os dois valores são números. Se forem números, faça a soma. Senão mostre um alerta avisando que os valores não são números.
 
@@ -15,4 +47,4 @@
 
 - Crie uma função para verificar se um banco está aberto ou não
   - O horário de atendimento do banco é de segunda a sexta, das 10h até às 16h.
-  - Utilizar a função Date() para pegar o dia/hora atual
+  - *Bônus:* Utilizar a função Date() para pegar o dia/hora atual
