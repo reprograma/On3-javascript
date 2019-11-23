@@ -157,7 +157,8 @@ switch(fruta) {
 
 `DOM = Document Object Model`
 
-O DOM é uma interface que representa como os documentos HTML e XML são lidos pelo seu browser. Após o browser ler seu documento HTML, ele cria um objeto que faz uma representação estruturada do seu documento e define meios de como essa estrutura pode ser acessada. Nós podemos acessar e manipular o DOM com JavaScript.
+O DOM é uma interface que representa como os documentos HTML e XML são lidos pelo seu browser. Após o browser ler seu documento HTML, ele cria um objeto que faz uma representação estruturada do seu documento e define meios de como essa estrutura pode ser acessada. Cada node (nó) representa uma parte desse interface.
+Nós podemos acessar e manipular o DOM com JavaScript.
 
 ```
 É um mapa do estrutura do HTML que você está rodando no navegador.
@@ -167,7 +168,12 @@ O DOM é uma interface que representa como os documentos HTML e XML são lidos p
 
 ![dom](images/dom.png)
 
+***
+
 ![dom](images/DOM-2.png)
+
+
+Conseguimos interagir com o DOM através dos métodos e eventos descritos abaixo.
 
 
 #### getElementById()
