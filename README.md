@@ -161,7 +161,7 @@ O DOM é uma interface que representa como os documentos HTML e XML são lidos p
 Nós podemos acessar e manipular o DOM com JavaScript.
 
 ```
-É um mapa do estrutura do HTML que você está rodando no navegador.
+É um mapa da estrutura do HTML que você está rodando no navegador.
 
 É a árvore genealógica do HTML.
 ```
