@@ -21,6 +21,7 @@
       - [mouseover](#mouseover)
       - [change](#change)
     - [innerHTML](#innerHTML)
+    - [innerText](#innerText)
 
 
 ### Chamando o JS dentro do HTML
@@ -158,9 +159,15 @@ switch(fruta) {
 
 O DOM é uma interface que representa como os documentos HTML e XML são lidos pelo seu browser. Após o browser ler seu documento HTML, ele cria um objeto que faz uma representação estruturada do seu documento e define meios de como essa estrutura pode ser acessada. Nós podemos acessar e manipular o DOM com JavaScript.
 
+```
 É um mapa do estrutura do HTML que você está rodando no navegador.
 
+É a árvore genealógica do HTML.
+```
+
 ![dom](images/dom.png)
+
+![dom](images/dom-2.png)
 
 
 #### getElementById()

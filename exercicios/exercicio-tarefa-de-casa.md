@@ -21,7 +21,8 @@ A relação dos lugares/presentes é:
 3. Javascript
 4. O CSS não é necessário, só se você quiser
 
-6. Bônus: Adicionar imagens dos presentes
+6. Bônus: Utilizar arrays, função e switch case
+7. Bônus: Adicionar imagens dos presentes
 
 ***
 
