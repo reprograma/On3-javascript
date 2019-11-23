@@ -167,7 +167,7 @@ O DOM é uma interface que representa como os documentos HTML e XML são lidos p
 
 ![dom](images/dom.png)
 
-![dom](images/dom-2.png)
+![dom](images/DOM-2.png)
 
 
 #### getElementById()
