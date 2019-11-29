@@ -1,0 +1,15 @@
+body {
+  background: #BB2528;
+  color: #F8B229;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 42px;
+  text-align: center;
+}
+
+
+.escondido {
+  display: none;
+}
