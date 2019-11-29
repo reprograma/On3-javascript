@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Presentes de Natal</title>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Presentes de Natal</h1>
+
+    <form>
+        <fieldset>
+            <label for="paises">País</label>
+            <select id="selecionaPais" name="pais">
+                <option value="default" selected="selected">Selecione um país</option>
+                <option value="brasil">Brasil</option>
+                <option value="australia">Austrália</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="inglaterra">Inglaterra</option>
+            </select>
+        </fieldset>
+        <fieldset class="escondido" id= "removeadd">
+            <label class= "city" for="cidades">Cidades</label>
+            <select id="selecionaBrasil">
+                <option value="default" selected="selected">Selecione uma cidade</option>
+                <option value="caxias">Caxias do Sul</option>
+                <option value="poa">Porto Alegre</option>
+                <option value="sp">São Paulo</option>
+            </select>
+        </fieldset>
+    </form>
+    <br>
+    <div id="mostraPresente"></div>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-image: url('./img/back.jpg');
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    color: rgb(228, 55, 55);
+
+}
+
+label {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0px;
+    display: block;
+}
+
+.escondido {
+    display: none;
+    padding-top: 2rem;
+}
+
+fieldset {
+    border: 0px;
+    padding: 0px;
+}
+
+.city {
+    padding-top: 2rem;
+}
+
