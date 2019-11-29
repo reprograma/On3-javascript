@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    background-image: url(img/timburton-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Mountains of Christmas', cursive;
+    color: #f69208;
+}
+
+@media (max-width:960px){
+    body{
+        background-image: url(img/wallpaper-fundo.jpg);
+    }
+    img {
+        width: 100px;
+        height: 200px;
+    }
+}
+/*.text-bg{
+    height: 500px;
+    background: #fff;
+    opacity: 0.6;
+}
+*/
+h1, h4, select, div{
+    position: relative;
+    top:20px;
+}
+h1, h4, div{
+    text-shadow: 1px 1px 2px #000;
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+h4{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+select{
+    margin-bottom: 15px;
+    background: #fff;
+    opacity: 0.7;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 20px;
+    color: #000;
+    -webkit-appearance: none;
+    text-align-last: center; /* para chrome */
+    text-align: center; /* para firefox */
+    width: 200px;
+    padding: 5px;
+}
+
+div{
+    font-size: 20px;
+}
