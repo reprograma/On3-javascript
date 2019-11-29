@@ -1,0 +1,34 @@
+body {
+  font: normal 20pt Arial;
+  background-color: rgb(194, 29, 125);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+div {
+  margin-top: 35px;
+}
+
+.escondido {
+  display: none;
+}
+
+#brCidades {
+  display: none;
+}
+
+/* condição até 960px */
+@media (max-width: 960px) {
+  body {
+    font: normal 14pt Arial;
+  }
+
+  img {
+    max-width: 200px;
+    max-height: 150px;
+  }
+}
