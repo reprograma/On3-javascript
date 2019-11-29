@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../img/christmas-bg.jpg");
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+  margin-top: 8vh;
+  margin-bottom: 6vh;
+  background: #555;
+  padding: 15px;
+}
+
+.container {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.centralize {
+  text-align: center;
+  margin: 0 auto;
+}
+
+select {
+  background: #ce2828;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 2px #555 solid;
+  border-radius: 5px;
+}
+
+#showPresent {
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 26px;
+  color: #ce2828;
+  font-weight: bolder;
+  text-shadow: 2px 2px 1px #fff;
+  padding: 10px;
+}
+
+#showTshirt {
+  margin-top: 15px;
+  border: 10px #ce2828 solid;
+}
