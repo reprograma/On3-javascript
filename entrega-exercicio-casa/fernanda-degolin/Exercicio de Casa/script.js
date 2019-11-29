@@ -20,7 +20,7 @@ nomePais.addEventListener('change', function () {
           nomePresente.innerText = 'Camiseta azul'
         } else if (pegaValuePaisBrasil === 'sp') {
           nomePresente.innerText = 'Camiseta amarela'
-        } else{
+        } else {
           nomePresente.innerText = '';
         }
       });
@@ -44,7 +44,5 @@ nomePais.addEventListener('change', function () {
     default:
       paisBrasil.classList.add('escondido');
       nomePresente.innerText = '';
-      
   }
-
 });
