@@ -10,13 +10,14 @@ A relação dos lugares/presentes é:
   - São Paulo: Uma camiseta amarela
 * Austrália: Uma camiseta verde
 * Estados Unidos: Uma camiseta roxa
-* Londres: Uma camiseta preta
+* Inglaterra: Uma camiseta preta
+
 
 ***
 
 #### O que deve ser feito?
 
-1. **Desenhar o fluxograma do projeto no papel**
+1. Desenhar o fluxograma do projeto no papel
 2. HTML
 3. Javascript
 4. O CSS não é necessário, só se você quiser
