@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc;
+    font-family: 'Hobo Std', sans-serif; 
+}
+  
+.banner {
+    background-image: url("../img/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+}
+
+fieldset {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+label {
+    font-size: 15px;
+}
+  
+.escondido {
+    display: none;
+}
+
+.result {
+    padding-top: 30px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
