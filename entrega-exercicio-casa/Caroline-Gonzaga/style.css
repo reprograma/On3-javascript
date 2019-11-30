@@ -1,0 +1,83 @@
+
+* {
+    margin: 0%;
+  }
+  body {
+    font-family: 'Josefin', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: url(./Caroline-Gonzaga/src/girada-177192183107-192754.jpg);
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  @media (max-width: 1200px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
+  .card {
+    margin: 200px 30px 0px 100px;
+  }
+  
+  @media (max-width: 1199px) {
+    .card {
+      min-height: auto;
+    }
+  }
+  
+  .title {
+    text-shadow: 1px 1px 2px #000;
+    font-size: 50px;
+  }
+  
+  @media (max-width: 1199px) {
+    .title {
+      font-size: 28px;
+      margin: 0;
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .result {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 1199px) {
+    .result {
+      font-size: 18px;
+    }
+  }
+  
+  fieldset {
+    border: 0 none;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  select {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 1199px) {
+    select {
+      font-size: 14px;
+    }
+  }
+  
