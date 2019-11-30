@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1> Entrega dos presentes de Natal</h1>
+    <div>
+      <label>País</label>
+    <select class = "pais" id="selecioneoPais">    
+      <option value="default">Selecione uma opção</option>
+      <option value="Australia">Austrália</option>
+      <option value="Brasil">Brasil</option>
+      <option value="EstadosUnidos">Estados Unidos</option>  
+      <option value="Londres">Londres</option>      
+    </select>
+     <select class = "oculto" id ="paisbrasil">
+       <option value = "default" selected = "selected">Selecione uma cidade</option> <option value="CaxiasdoSul">Caxias do Sul</option>
+       <option value="PortoAlegre">Porto Alegre</option>
+       <option value="SaoPaulo">São Paulo</option>
+     </select>
+    </div>  
+    <br>
+    <hr>
+    <div id="presente"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
