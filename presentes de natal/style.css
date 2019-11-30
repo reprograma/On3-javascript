@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: rgb(214, 1, 1);
+    background-image: url(./img/NatalWestwing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  @media (max-width: 1199px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
+  .card {
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 400px;
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 1199px) {
+    .card {
+      min-height: auto;
+    }
+  }
+  
+  .title {
+    text-shadow: 1px 1px 2px #000;
+    opacity: 0.8;
+    font-size: 50px;
+  }
+  
+  @media (max-width: 1199px) {
+    .title {
+      font-size: 28px;
+      margin: 0;
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .result {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 1199px) {
+    .result {
+      font-size: 18px;
+    }
+  }
+  
+  fieldset {
+    border: 0 none;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  select {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 1199px) {
+    select {
+      font-size: 14px;
+    }
+  }
+  
