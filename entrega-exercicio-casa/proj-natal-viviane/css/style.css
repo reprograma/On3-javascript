@@ -1,0 +1,16 @@
+.body{
+    background-color:lightpink;
+}
+
+.escondido{
+    display: none;
+}
+
+img{
+    width: 400px;
+    height: 500px;
+}
+
+.presente{
+    align-content: center;
+}
