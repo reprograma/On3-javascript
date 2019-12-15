@@ -1,0 +1,18 @@
+body {
+  background: #054205;
+  color: red;
+  font-family: cursive;
+}
+
+h1 {
+  font-size: 42px;
+  text-align: center;
+}
+
+.escondido {
+  display: none;
+}
+
+.imagem-camisa {
+  height: 150px;
+}
