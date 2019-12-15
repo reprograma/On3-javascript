@@ -1,0 +1,16 @@
+body {
+  background: #b0dccf;
+  color: #18755e;
+  font-family: cursive;
+}
+h1 {
+  font-size: 42px;
+  text-align: center;
+}
+.oculto {
+  display: none;
+  
+}
+.pais {
+  margin: 5px;
+}
