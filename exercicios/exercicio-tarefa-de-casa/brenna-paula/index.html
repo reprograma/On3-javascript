@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Entregas de Natal</title>
+    
+    
+</head>
+<body>
+    <!--Titulo do envio dos presentes de Natal-->
+    <h1>Presentes de Natal</h1>
+    <p>Para os melhores amigos do mundo</p>
+   
+    <!--Selecionar País-->
+    <div>
+        <label for="pais">País</label>
+            <select id="selecionaPais" name="selecionaPais">
+                <option value="selecionaPais" selected="selected">Selecione um país</option>
+                <option value="australia">Austrália</option>
+                <option value="brasil">Brasil</option>
+                <option value="estadosUnidos">Estados Unidos</option>
+                <option value="inglaterra">Inglaterra</option>
+            </select>
+       
+
+<!--Selecionar cidades do Brasil-->
+        <select class="escondido" id="selecionaPaisBrasil">
+            <option value="default" selected="selected">Selecione uma cidade</option>
+            <option value="gyn">Goiânia</option>
+            <option value="poa">Porto Alegre</option>
+            <option value="sp">São Paulo</option>
+        </select>
+        <div id="mostraPresente"></div>
+        <script src="js/script.js"></script> 
+    </div>
+   
+      
+</body>
+</html>

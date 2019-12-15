@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/natal3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 900px) {
+    body {
+        display: inline; 
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
+
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    text-align: left;
+
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+p {
+    font-family: 'Caveat', cursive; 
+    color: white;
+    text-align: left;
+    font-size: 30px; 
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+@media (max-width: 900px) {
+    p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 50px;
+    }
+}
+
+label  {
+    font-family: 'Caveat', cursive;
+    text-transform: bold;
+    text-align: left;
+    color: white;
+    display: block;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+@media (max-width: 900px) {
+    label {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 40px;
+    }
+}
+
+select {
+    border: 0 none;
+    font-family: 'Caveat', cursive;
+    text-transform: bold;
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 350px;
+    opacity: 50%;
+}
+
+@media (max-width: 900px) {
+    select {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 150px;
+    }
+}
+
+
+.escondido {
+    display: none;
+}
+
