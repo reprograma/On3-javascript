@@ -1,0 +1,17 @@
+*{
+    background: url(../img/fundo.jpg);
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    text-align: center;
+}
+.titulo{
+    margin-top: 15%;
+}
+.for{
+    font-size: 18px;
+    margin-top: 2%;
+}
+
+

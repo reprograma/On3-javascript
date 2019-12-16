@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Presentes</title>
+</head>
+
+<body>
+    <h1 class="titulo">Presentes de Natal</h1>
+    <div> País</div>
+    <select id='paises'>
+        <option value="defaultP">Selecione uma Opção</option>
+        <option value="opcaoP1">Brasil</option>
+        <option value="opcaoP2">Austrália</option>
+        <option value="opcaoP3">Estados Unidos</option>
+        <option value="opcaoP4">Inglaterra</option>
+    </select>
+    <br>
+    <br>
+        <div id="cid" style="display: none">
+            <div> Cidade</div>
+            <select id="cidade">
+                <option value="default">Selecione a cidade</option>
+                <option value="cs">Caxias do Sul</option>
+                <option value="pa">Porto Alegre</option>
+                <option value="sp">São Paulo</option>
+            </select>
+        </div><br>
+        
+        <div id="presente"></div><br>
+        <div class="img">
+            <img id="imgPresente" src="img/presente.png" width="200" height="198"  />
+        </div>
+
+    </form>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
