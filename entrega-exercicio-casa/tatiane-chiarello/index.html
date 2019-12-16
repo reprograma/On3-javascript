@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/santaicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
+    <title>Lista de Presentes de Natal</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Presentes de Natal</h1>
+        </div>
+        
+        <div>
+            <form>
+                <div id="countryContainer">
+                    <label for="country">País</label>
+                    <select name="country" id="country">
+                        <option value="select-country">Selecione um país</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="australia">Austrália</option>
+                        <option value="eua">Estados Unidos</option>
+                        <option value="londres">Londres</option>
+                    </select>
+                </div>
+
+                <div id="cityContainer">
+                    <label for="city">Cidade</label>
+                    <select name="city" id="city">
+                        <option value="select-city">Selecione uma cidade</option>
+                        <option value="caxias">Caxias do Sul</option>
+                        <option value="portoAlegre">Porto Alegre</option>
+                        <option value="spaulo">São Paulo</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <p id="message"></p>
+                </div>
+
+                <div id="giftImage"></div>
+            </form>
+        </div>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
