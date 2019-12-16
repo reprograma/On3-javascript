@@ -1,0 +1,14 @@
+.body {
+    background: #dcb0b0;
+    color: #751818;
+    font-family: cursive;
+  }
+  
+.h1 {
+    font-size: 42px;
+    text-align: center;
+  }
+  
+.escondido {
+    display: none;
+  }
