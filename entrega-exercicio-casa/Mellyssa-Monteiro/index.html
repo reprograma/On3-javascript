@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="img/jack.png">
+        <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+        <title>Presentes do Natal</title>
+    </head>
+    <body>
+
+        <section class="text-bg">
+        <h1>Presentes de Natal</h1>
+
+        <h4>País</h4>
+        <select id="escolhaPais">
+            <option value="default">Selecione um País</option>
+            <option value="aus">Austrália</option>
+            <option value="br">Brasil</option>
+            <option value="eua">EUA</option>
+            <option value="eng">Inglaterra</option>
+        </select>
+        <div id="mostraMensagemPais"></div><br>
+
+        <img id="face-pais" class="escondido" width="200px" height="250px"src=""/>
+        
+   
+        <div id="mostrar" style="display: none;">
+        <h4>Cidade</h4>
+        <select id="escolhaCidade">
+            <option value="default">Selecione uma Cidade</option>
+            <option value="caxias">Caxias do Sul</option>
+            <option value="poa">Porto Alegre</option>
+            <option value="sp">São Paulo</option>
+        </select>
+        <div id="mostraMensagem"></div><br>
+        <img id="face-cidade" class="escondido-dois" width="200px" height="250px" src=""  />
+        </div>
+        </section>
+
+    <script src="script.js"></script>
+    </body>
+</html>
