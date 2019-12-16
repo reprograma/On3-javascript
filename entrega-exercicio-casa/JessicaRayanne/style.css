@@ -1,0 +1,19 @@
+body{
+    background: rgb(173, 28, 28);
+    /*background-image: url();*/
+    font-size: 18px;
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+.escondido{
+    display: none;
+}
