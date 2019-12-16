@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+<!-- CSS-->
+<link rel="stylesheet" href="css/style.css">
+
+<title>Presentes de Natal</title>
+
+</head>
+  <body>
+      <div class="container">
+      <h1>🎄 Presentes de Natal 🎁</h1>
+      <div>
+        <label>País</label>
+          <select id="selecionaPais">
+           <option value="default" selected="selected">Selecione um país</option>
+            <option value="australia">Austrália</option>
+            <option value="brasil">Brasil</option>
+            <option value="eua">Estados Unidos</option>
+            <option value="inglaterra">Inglaterra</option>
+          </select>
+
+        <select class="escondido" id="selecionaPaisBrasil">
+          <option value="default" selected="selected">Selecione uma cidade</option>
+          <option value="caxias">Caxias do Sul</option>
+          <option value="poa">Porto Alegre</option>
+          <option value="sp">São Paulo</option>
+        </select>
+
+        <img src="" class="escondido" id="imagemCamiseta" />
+      </div>
+
+      <div id="mostraPresente"></div>
+     <script src="js/script.js"></script>
+
+  </body>
+
+</html>
