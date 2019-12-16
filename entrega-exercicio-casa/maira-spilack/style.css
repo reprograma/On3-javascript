@@ -1,0 +1,29 @@
+
+
+body {
+    display: block;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #751818;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+  }
+  
+  h1 {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 5vh;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  div {
+    margin-top: 2vh;
+  }
+  
