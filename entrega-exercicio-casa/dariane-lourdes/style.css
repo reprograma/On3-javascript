@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    
+    background-image: url('./image/background.jpg');
+    background-repeat: no-repeat;
+	color: #c20c0c;
+	
+}
+
+.container {
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+
+h1 {
+	font-family: 'Courgette', cursive;
+	font-size: 70px;
+}
+
+label {
+	font-size: 30px;
+}
+
+#boxCountry {
+	margin: 9px 0;
+}
+
+#boxCity {
+	display: none;
+	margin: 5px 0;
+}
+
+select{
+    max-width: 230px;
+	width: 100%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #c9c7c7;
+	color: #7b7b7b;
+	font-size: 1em;
+	color: #999;
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 12px;
+    transition: all 0.25s ease;
+}
+ 
+select:hover{
+	background: #B1E8CD;
+}
+
+#message {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Courgette', cursive;
+	font-size: 30px;
+	
+	
+}
+ 
+
+/* MEDIA */
+
+@media (max-width: 425px) {
+
+	
+
+	.container {
+		text-align: center;
+		padding-left: 0;
+		margin: 0 20px;
+	}
+
+	#message {
+		font-family: 'Courgette', cursive;
+		font-size: 25px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding-top: 15px;
+	}
+	
+}
+
