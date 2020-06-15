@@ -309,4 +309,4 @@ displayText.innerText = "Texto que eu inseri no HTML."
 ```
 
 
-* [Exercicios](https://github.com/reprograma/On3-javascript/blob/master/exercicios/exercicio-2.md)
+* [Exercicios](https://github.com/reprograma/On3-javascript/blob/master/exercicios/exercicio-2.md) 
